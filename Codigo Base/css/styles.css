@@ -1,0 +1,31 @@
+#titulo {
+	margin-bottom: 30px;
+}
+
+.area {
+	height: 400px;
+}
+
+.subtitulo {
+	margin-bottom: 20px
+}
+
+.itens{
+	height: 100%;
+	padding: 10px 40px;
+	background-color: #e7e7e7;
+	overflow: auto
+}
+
+@media screen and (max-width: 769px) {
+    .area {
+		margin-top: 25px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+    .ultimo {
+		margin-top: 25px;
+	}
+}
+
